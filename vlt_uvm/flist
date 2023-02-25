@@ -1,0 +1,4 @@
++incdir+$UVM_HOME/src
+uvm_pkg.sv
+uvm_macros.svh
+seq/uvm_seq.svh

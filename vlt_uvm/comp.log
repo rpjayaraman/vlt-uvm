@@ -1,0 +1,74 @@
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:67:31: syntax error, unexpected '#', expecting '.' or ';'
+   67 |    typedef uvm_object_registry#(uvm_sequence_item,"uvm_sequence_item") type_id; 
+      |                               ^
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:67:52: syntax error, unexpected IDENTIFIER, expecting ')'
+   67 |                                      uvm_component parent=null, 
+      |                                                    ^~~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error-PKGNODECL: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:67:13: Package/class 'type_id' not found, and needs to be predeclared (IEEE 1800-2017 26.3)
+   67 |      return type_id::create(name, parent, contxt); 
+      |             ^~~~~~~
+                  /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+                  ... For error description see https://verilator.org/warn/PKGNODECL?v=5.006
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:288:5: syntax error, unexpected IDENTIFIER
+  288 |     root_seq = get_root_sequence();
+      |     ^~~~~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:313:5: syntax error, unexpected IDENTIFIER
+  313 |     root_seq_base = this;
+      |     ^~~~~~~~~~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:334:5: syntax error, unexpected IDENTIFIER
+  334 |     this_item = this;
+      |     ^~~~~~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:480:5: syntax error, unexpected super
+  480 |     super.do_print(printer);
+      |     ^~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error-UNSUPPORTED: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequencer_base.svh:33:1: Unsupported: class within class
+   33 | class uvm_sequence_process_wrapper;
+      | ^~~~~
+                    /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:527:1: ... note: In file included from uvm_sequence_item.svh
+                    /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequencer_base.svh:71:9: syntax error, unexpected IDENTIFIER, expecting TYPE-IDENTIFIER
+   71 |   local uvm_sequencer_arb_mode  m_arbitration = UVM_SEQ_ARB_FIFO;
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:527:1: ... note: In file included from uvm_sequence_item.svh
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequencer_base.svh:84:51: syntax error, unexpected IDENTIFIER, expecting ')'
+   84 |   extern function new (string name, uvm_component parent);
+      |                                                   ^~~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:527:1: ... note: In file included from uvm_sequence_item.svh
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequencer_base.svh:165:63: syntax error, unexpected IDENTIFIER, expecting ')'
+  165 |   extern virtual function void start_phase_sequence(uvm_phase phase);
+      |                                                               ^~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:527:1: ... note: In file included from uvm_sequence_item.svh
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequencer_base.svh:172:62: syntax error, unexpected IDENTIFIER, expecting ')'
+  172 |   extern virtual function void stop_phase_sequence(uvm_phase phase);
+      |                                                              ^~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:527:1: ... note: In file included from uvm_sequence_item.svh
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequencer_base.svh:274:57: syntax error, unexpected IDENTIFIER, expecting ')'
+  274 |   extern function void set_arbitration(UVM_SEQ_ARB_TYPE val);
+      |                                                         ^~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:527:1: ... note: In file included from uvm_sequence_item.svh
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequencer_base.svh:279:36: syntax error, unexpected IDENTIFIER, expecting ';'
+  279 |   extern function UVM_SEQ_ARB_TYPE get_arbitration();
+      |                                    ^~~~~~~~~~~~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:527:1: ... note: In file included from uvm_sequence_item.svh
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequencer_base.svh:343:58: syntax error, unexpected IDENTIFIER, expecting ')'
+  343 |   extern           function void   do_print (uvm_printer printer);
+      |                                                          ^~~~~~~
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:527:1: ... note: In file included from uvm_sequence_item.svh
+        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
+%Error: Internal Error: /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequencer_base.svh:50:1: ../V3ParseSym.h:124: Symbols suggest ending TASK 'do_print' but parser thinks ending CLASS 'uvm_sequencer_base'
+   50 | class uvm_sequencer_base extends uvm_component;
+      | ^~~~~
+                        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_sequence_item.svh:527:1: ... note: In file included from uvm_sequence_item.svh
+                        /home/jrp/Verilator-UVM/uvm-verilator//src/seq/uvm_seq.svh:26:1: ... note: In file included from uvm_seq.svh
